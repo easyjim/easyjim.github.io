@@ -190,7 +190,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.easyjim" name="easyjim repository" version="1.2" provider-name="easyjim">
+<addon id="repository.easyjim" name="easyjim repository" version="1.1" provider-name="easyjim">
     <extension point="xbmc.addon.repository" name="easyjim Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/easyjim/repository.easyjim/master/zips/addons.xml</info>
