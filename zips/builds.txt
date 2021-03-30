@@ -1,6 +1,6 @@
 id="plugin.program.easyjimwizard"
 version="1.0"
-zip="https://raw.githubusercontent.com/easyjim/easyjim.github.io/blob/master/zips/repository.easyjim/"
+zip="https://raw.githubusercontent.com/easyjim/easyjim.github.io/master/zips/repository.easyjim/"
 
 name="EasyJim"
 version="1.0"
