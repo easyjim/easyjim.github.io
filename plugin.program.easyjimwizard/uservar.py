@@ -13,11 +13,11 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = '[COLOR limegreen][B]Open[/B][/COLOR]Wizard'
-BUILDERNAME = 'OpenWizard'
-EXCLUDES = [ADDON_ID, 'repository.openwizard']
+ADDONTITLE = '[COLOR limegreen][B]EasyJim[/B][/COLOR]Wizard'
+BUILDERNAME = 'easyjim'
+EXCLUDES = [ADDON_ID, 'repository.easyjim']
 # Text File with build info in it.
-BUILDFILE = 'http://'
+BUILDFILE = 'https://raw.githubusercontent.com/easyjim/repo/master/zips/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
@@ -77,7 +77,7 @@ THEME5 = u'[COLOR {color1}]Current Theme:[/COLOR] [COLOR {color2}]{{}}[/COLOR]'.
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
 HIDECONTACT = 'No'
 # You can add \n to do line breaks
-CONTACT = 'Thank you for choosing OpenWizard.\n\nContact us on Github at http://www.github.com/drinfernoo/plugin.program.openwizard/'
+CONTACT = 'Thank you for choosing EasyJimWizard.\n\nContact us on Github at http://www.github.com/easyjim/plugin.program.openwizard/'
 # Images used for the contact window.  http:// for default icon and fanart
 CONTACTICON = os.path.join(ART, 'qricon.png')
 CONTACTFANART = 'http://'
@@ -94,13 +94,13 @@ AUTOUPDATE = 'Yes'
 #        Auto Install Repo If Not Installed             #
 #########################################################
 # Enable Auto Install 'Yes' or 'No'
-AUTOINSTALL = 'No'
+AUTOINSTALL = 'Yes'
 # Addon ID for the repository
-REPOID = 'repository.openwizard'
+REPOID = 'repository.easyjim'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML = 'https://'
+REPOADDONXML = 'https://raw.githubusercontent.com/easyjim/repo/master/zips/repository.easyjim/addon.xml'
 # Url to folder zip is located in
-REPOZIPURL = 'https://'
+REPOZIPURL = 'https://raw.githubusercontent.com/easyjim/repo/master/zips/repository.easyjim/'
 #########################################################
 
 #########################################################
@@ -109,12 +109,12 @@ REPOZIPURL = 'https://'
 # Enable Notification screen Yes or No
 ENABLE = 'Yes'
 # Url to notification file
-NOTIFICATION = 'http://'
+NOTIFICATION = 'https://raw.githubusercontent.com/easyjim/repo/master/zips/notify.txt'
 # Use either 'Text' or 'Image'
 HEADERTYPE = 'Text'
 # Font size of header
 FONTHEADER = 'Font14'
-HEADERMESSAGE = '[COLOR limegreen][B]Open[/B][/COLOR]Wizard'
+HEADERMESSAGE = '[COLOR limegreen][B]EasyJim[/B][/COLOR]Wizard'
 # url to image if using Image 424x180
 HEADERIMAGE = 'http://'
 # Font for Notification Window
